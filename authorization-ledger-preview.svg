@@ -1,0 +1,194 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 860 200" width="860" height="200">
+  <defs>
+    <linearGradient id="lane" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#1e293b"/>
+      <stop offset="100%" stop-color="#0f172a"/>
+    </linearGradient>
+  </defs>
+  <rect width="860" height="200" rx="10" fill="#0b1220"/>
+  <line x1="40" y1="92" x2="820" y2="92" stroke="url(#lane)" stroke-width="2"/>
+  
+    <g transform="translate(140, 92)">
+      <line x1="0" y1="-34" x2="0" y2="34" stroke="#334155" stroke-width="1.5" stroke-dasharray="3 4"/>
+      <circle r="4" fill="#64748b">
+        
+      </circle>
+      <text y="-46" text-anchor="middle" font-family="'JetBrains Mono', monospace"
+            font-size="11" letter-spacing="1.5" fill="#94a3b8">PROPOSED</text>
+    </g>
+    <g transform="translate(430, 92)">
+      <line x1="0" y1="-34" x2="0" y2="34" stroke="#334155" stroke-width="1.5" stroke-dasharray="3 4"/>
+      <circle r="4" fill="#4ade80">
+        <animate attributeName="opacity" values="1;0.3;1" dur="1.4s" repeatCount="indefinite"/>
+      </circle>
+      <text y="-46" text-anchor="middle" font-family="'JetBrains Mono', monospace"
+            font-size="11" letter-spacing="1.5" fill="#94a3b8">POLICY CHECK</text>
+    </g>
+    <g transform="translate(720, 92)">
+      <line x1="0" y1="-34" x2="0" y2="34" stroke="#334155" stroke-width="1.5" stroke-dasharray="3 4"/>
+      <circle r="4" fill="#64748b">
+        
+      </circle>
+      <text y="-46" text-anchor="middle" font-family="'JetBrains Mono', monospace"
+            font-size="11" letter-spacing="1.5" fill="#94a3b8">VERIFIED</text>
+    </g>
+  
+    <g opacity="0">
+      <animate attributeName="opacity" values="0;1;1;0" keyTimes="0;0.02;0.94;1"
+                dur="7s" begin="0.00s" repeatCount="indefinite" fill="freeze"/>
+      <circle id="tok0" r="6" fill="#fbbf24">
+        <animateMotion dur="7s" begin="0.00s" repeatCount="indefinite"
+                        path="M 40 92 L 820 92" />
+        <animate attributeName="fill" values="#fbbf24;#fbbf24;#4ade80;#4ade80" 
+                  keyTimes="0;0.5;0.56;1" dur="7s" begin="0.00s" repeatCount="indefinite"/>
+        <animate attributeName="r" values="6;6;9;6" keyTimes="0;0.5;0.56;1"
+                  dur="7s" begin="0.00s" repeatCount="indefinite"/>
+        <title>Bouncer · 30dc871 · add fuzz targets for policy parity suite</title>
+      </circle>
+    </g>
+    <g opacity="0">
+      <animate attributeName="opacity" values="0;1;1;0" keyTimes="0;0.02;0.94;1"
+                dur="7s" begin="1.10s" repeatCount="indefinite" fill="freeze"/>
+      <circle id="tok1" r="6" fill="#5eead4">
+        <animateMotion dur="7s" begin="1.10s" repeatCount="indefinite"
+                        path="M 40 92 L 820 92" />
+        <animate attributeName="fill" values="#5eead4;#5eead4;#4ade80;#4ade80" 
+                  keyTimes="0;0.5;0.56;1" dur="7s" begin="1.10s" repeatCount="indefinite"/>
+        <animate attributeName="r" values="6;6;9;6" keyTimes="0;0.5;0.56;1"
+                  dur="7s" begin="1.10s" repeatCount="indefinite"/>
+        <title>Recommender-Lakehouse · 0dc9dda · tighten state-delta verification bounds</title>
+      </circle>
+    </g>
+    <g opacity="0">
+      <animate attributeName="opacity" values="0;1;1;0" keyTimes="0;0.02;0.94;1"
+                dur="7s" begin="2.20s" repeatCount="indefinite" fill="freeze"/>
+      <circle id="tok2" r="6" fill="#f472b6">
+        <animateMotion dur="7s" begin="2.20s" repeatCount="indefinite"
+                        path="M 40 92 L 820 92" />
+        <animate attributeName="fill" values="#f472b6;#f472b6;#4ade80;#4ade80" 
+                  keyTimes="0;0.5;0.56;1" dur="7s" begin="2.20s" repeatCount="indefinite"/>
+        <animate attributeName="r" values="6;6;9;6" keyTimes="0;0.5;0.56;1"
+                  dur="7s" begin="2.20s" repeatCount="indefinite"/>
+        <title>Tortus · a99d872 · wire causal SASRec into ranking stage</title>
+      </circle>
+    </g>
+    <g opacity="0">
+      <animate attributeName="opacity" values="0;1;1;0" keyTimes="0;0.02;0.94;1"
+                dur="7s" begin="3.30s" repeatCount="indefinite" fill="freeze"/>
+      <circle id="tok3" r="6" fill="#f472b6">
+        <animateMotion dur="7s" begin="3.30s" repeatCount="indefinite"
+                        path="M 40 92 L 820 92" />
+        <animate attributeName="fill" values="#f472b6;#f472b6;#4ade80;#4ade80" 
+                  keyTimes="0;0.5;0.56;1" dur="7s" begin="3.30s" repeatCount="indefinite"/>
+        <animate attributeName="r" values="6;6;9;6" keyTimes="0;0.5;0.56;1"
+                  dur="7s" begin="3.30s" repeatCount="indefinite"/>
+        <title>AgenticProcurement · cb2dd8d · add path-recall metric to eval harness</title>
+      </circle>
+    </g>
+    <g opacity="0">
+      <animate attributeName="opacity" values="0;1;1;0" keyTimes="0;0.02;0.94;1"
+                dur="7s" begin="4.40s" repeatCount="indefinite" fill="freeze"/>
+      <circle id="tok4" r="6" fill="#f472b6">
+        <animateMotion dur="7s" begin="4.40s" repeatCount="indefinite"
+                        path="M 40 92 L 820 92" />
+        <animate attributeName="fill" values="#f472b6;#f472b6;#4ade80;#4ade80" 
+                  keyTimes="0;0.5;0.56;1" dur="7s" begin="4.40s" repeatCount="indefinite"/>
+        <animate attributeName="r" values="6;6;9;6" keyTimes="0;0.5;0.56;1"
+                  dur="7s" begin="4.40s" repeatCount="indefinite"/>
+        <title>CausalOps · a138e18 · fail closed on missing lineage tag</title>
+      </circle>
+    </g>
+    <g opacity="0">
+      <animate attributeName="opacity" values="0;1;1;0" keyTimes="0;0.02;0.94;1"
+                dur="7s" begin="5.50s" repeatCount="indefinite" fill="freeze"/>
+      <circle id="tok5" r="6" fill="#fbbf24">
+        <animateMotion dur="7s" begin="5.50s" repeatCount="indefinite"
+                        path="M 40 92 L 820 92" />
+        <animate attributeName="fill" values="#fbbf24;#fbbf24;#4ade80;#4ade80" 
+                  keyTimes="0;0.5;0.56;1" dur="7s" begin="5.50s" repeatCount="indefinite"/>
+        <animate attributeName="r" values="6;6;9;6" keyTimes="0;0.5;0.56;1"
+                  dur="7s" begin="5.50s" repeatCount="indefinite"/>
+        <title>Bouncer · 8db1d1c · expand ellipsoidal regret test cases</title>
+      </circle>
+    </g>
+    <g opacity="0">
+      <animate attributeName="opacity" values="0;1;1;0" keyTimes="0;0.02;0.94;1"
+                dur="7s" begin="6.60s" repeatCount="indefinite" fill="freeze"/>
+      <circle id="tok6" r="6" fill="#5eead4">
+        <animateMotion dur="7s" begin="6.60s" repeatCount="indefinite"
+                        path="M 40 92 L 820 92" />
+        <animate attributeName="fill" values="#5eead4;#5eead4;#4ade80;#4ade80" 
+                  keyTimes="0;0.5;0.56;1" dur="7s" begin="6.60s" repeatCount="indefinite"/>
+        <animate attributeName="r" values="6;6;9;6" keyTimes="0;0.5;0.56;1"
+                  dur="7s" begin="6.60s" repeatCount="indefinite"/>
+        <title>Recommender-Lakehouse · 8460855 · add tamper-evident log signing</title>
+      </circle>
+    </g>
+    <g opacity="0">
+      <animate attributeName="opacity" values="0;1;1;0" keyTimes="0;0.02;0.94;1"
+                dur="7s" begin="7.70s" repeatCount="indefinite" fill="freeze"/>
+      <circle id="tok7" r="6" fill="#f472b6">
+        <animateMotion dur="7s" begin="7.70s" repeatCount="indefinite"
+                        path="M 40 92 L 820 92" />
+        <animate attributeName="fill" values="#f472b6;#f472b6;#4ade80;#4ade80" 
+                  keyTimes="0;0.5;0.56;1" dur="7s" begin="7.70s" repeatCount="indefinite"/>
+        <animate attributeName="r" values="6;6;9;6" keyTimes="0;0.5;0.56;1"
+                  dur="7s" begin="7.70s" repeatCount="indefinite"/>
+        <title>Tortus · f70c2bf · bound graph traversal depth</title>
+      </circle>
+    </g>
+    <g opacity="0">
+      <animate attributeName="opacity" values="0;1;1;0" keyTimes="0;0.02;0.94;1"
+                dur="7s" begin="8.80s" repeatCount="indefinite" fill="freeze"/>
+      <circle id="tok8" r="6" fill="#f472b6">
+        <animateMotion dur="7s" begin="8.80s" repeatCount="indefinite"
+                        path="M 40 92 L 820 92" />
+        <animate attributeName="fill" values="#f472b6;#f472b6;#4ade80;#4ade80" 
+                  keyTimes="0;0.5;0.56;1" dur="7s" begin="8.80s" repeatCount="indefinite"/>
+        <animate attributeName="r" values="6;6;9;6" keyTimes="0;0.5;0.56;1"
+                  dur="7s" begin="8.80s" repeatCount="indefinite"/>
+        <title>AgenticProcurement · c910c37 · add fuzz targets for policy parity suite</title>
+      </circle>
+    </g>
+    <g opacity="0">
+      <animate attributeName="opacity" values="0;1;1;0" keyTimes="0;0.02;0.94;1"
+                dur="7s" begin="9.90s" repeatCount="indefinite" fill="freeze"/>
+      <circle id="tok9" r="6" fill="#f472b6">
+        <animateMotion dur="7s" begin="9.90s" repeatCount="indefinite"
+                        path="M 40 92 L 820 92" />
+        <animate attributeName="fill" values="#f472b6;#f472b6;#4ade80;#4ade80" 
+                  keyTimes="0;0.5;0.56;1" dur="7s" begin="9.90s" repeatCount="indefinite"/>
+        <animate attributeName="r" values="6;6;9;6" keyTimes="0;0.5;0.56;1"
+                  dur="7s" begin="9.90s" repeatCount="indefinite"/>
+        <title>CausalOps · 809fed7 · tighten state-delta verification bounds</title>
+      </circle>
+    </g>
+  
+    <text x="40" y="170" font-family="'JetBrains Mono', monospace" font-size="11" fill="#64748b" opacity="0">
+      <animate attributeName="opacity" values="0;1;1;0" keyTimes="0;0.05;0.85;1" dur="1.8s" begin="0.00s" repeatCount="indefinite"/>
+      <tspan fill="#fbbf24">Bouncer</tspan><tspan fill="#475569"> · 30dc871 · </tspan>add fuzz targets for policy parity suite
+    </text>
+    <text x="40" y="170" font-family="'JetBrains Mono', monospace" font-size="11" fill="#64748b" opacity="0">
+      <animate attributeName="opacity" values="0;1;1;0" keyTimes="0;0.05;0.85;1" dur="1.8s" begin="1.60s" repeatCount="indefinite"/>
+      <tspan fill="#5eead4">Recommender-Lakehouse</tspan><tspan fill="#475569"> · 0dc9dda · </tspan>tighten state-delta verification bounds
+    </text>
+    <text x="40" y="170" font-family="'JetBrains Mono', monospace" font-size="11" fill="#64748b" opacity="0">
+      <animate attributeName="opacity" values="0;1;1;0" keyTimes="0;0.05;0.85;1" dur="1.8s" begin="3.20s" repeatCount="indefinite"/>
+      <tspan fill="#f472b6">Tortus</tspan><tspan fill="#475569"> · a99d872 · </tspan>wire causal SASRec into ranking stage
+    </text>
+    <text x="40" y="170" font-family="'JetBrains Mono', monospace" font-size="11" fill="#64748b" opacity="0">
+      <animate attributeName="opacity" values="0;1;1;0" keyTimes="0;0.05;0.85;1" dur="1.8s" begin="4.80s" repeatCount="indefinite"/>
+      <tspan fill="#f472b6">AgenticProcurement</tspan><tspan fill="#475569"> · cb2dd8d · </tspan>add path-recall metric to eval harness
+    </text>
+    <text x="40" y="170" font-family="'JetBrains Mono', monospace" font-size="11" fill="#64748b" opacity="0">
+      <animate attributeName="opacity" values="0;1;1;0" keyTimes="0;0.05;0.85;1" dur="1.8s" begin="6.40s" repeatCount="indefinite"/>
+      <tspan fill="#f472b6">CausalOps</tspan><tspan fill="#475569"> · a138e18 · </tspan>fail closed on missing lineage tag
+    </text>
+    <text x="40" y="170" font-family="'JetBrains Mono', monospace" font-size="11" fill="#64748b" opacity="0">
+      <animate attributeName="opacity" values="0;1;1;0" keyTimes="0;0.05;0.85;1" dur="1.8s" begin="8.00s" repeatCount="indefinite"/>
+      <tspan fill="#fbbf24">Bouncer</tspan><tspan fill="#475569"> · 8db1d1c · </tspan>expand ellipsoidal regret test cases
+    </text>
+  <text x="40" y="30" font-family="'JetBrains Mono', monospace" font-size="12" fill="#e2e8f0" letter-spacing="0.5">
+    authorization ledger <tspan fill="#475569">— live commit activity, gated</tspan>
+  </text>
+</svg>

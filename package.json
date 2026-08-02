@@ -1,0 +1,9 @@
+{
+  "name": "authorization-ledger",
+  "version": "1.0.0",
+  "type": "module",
+  "description": "Renders recent commit activity as an animated SVG authorization pipeline (PROPOSED -> POLICY CHECK -> VERIFIED).",
+  "scripts": {
+    "generate": "node scripts/generate-ledger.mjs"
+  }
+}
