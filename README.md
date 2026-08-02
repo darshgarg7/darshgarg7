@@ -1,65 +1,55 @@
 <div align="center">
 
-<img src="./assets/hero.svg" alt="Darsh Garg — Applied AI and ML systems for real-world impact" width="100%" />
+<img src="./assets/hero.svg" alt="Darsh Garg — applied AI, ML systems, and agent infrastructure" width="100%" />
 
 <br/>
 
 <a href="https://darshgarg.com/"><b>Website</b></a>
 &nbsp;&nbsp;·&nbsp;&nbsp;
-<a href="https://www.linkedin.com/in/darsh-garg/"><b>LinkedIn</b></a>
+<a href="https://darshgarg.com/cv"><b>Résumé</b></a>
+&nbsp;&nbsp;·&nbsp;&nbsp;
+<a href="https://www.linkedin.com/in/darshgarg13579/"><b>LinkedIn</b></a>
 &nbsp;&nbsp;·&nbsp;&nbsp;
 <a href="mailto:darsh.garg@gmail.com"><b>Email</b></a>
 
 </div>
 
-<br/>
+## I turn ambiguous AI problems into measurable systems.
 
-## I build AI systems that solve hard, valuable problems.
+I work across the full applied-AI lifecycle: framing the decision, building the data and model path, designing the surrounding system, and proving whether the result deserves to ship.
 
-I am interested in the full lifecycle of applied AI: finding the right problem, understanding the business and technical constraints, choosing the right ML approach, building the surrounding system, and measuring whether it actually creates value.
+My projects are meant to be interrogated—not merely demoed. They include reproducible runs, real baselines, explicit release gates, traceable evidence, and honest failure boundaries.
 
-My recent work spans recommender systems, retrieval, agentic AI, causal reasoning, decision-making under uncertainty, and AI infrastructure.
+> **The pattern:** find the decision that matters, build the simplest system that can improve it, and measure the value without grading your own homework.
 
-The common thread is simple:
-
-> Use AI where it creates real leverage, and engineer the system around it well enough to make that value measurable.
-
-<br/>
+## Selected systems
 
 <table>
 <tr>
 <td width="50%" valign="top">
 
-### 🧊 [Recommender Lakehouse](https://github.com/darshgarg7/Recommender-Lakehouse)
+### 🛡️ [Bouncer](https://github.com/darshgarg7/Bouncer)
 
-**A production-minded recommender platform for cold-start marketplaces**
+**Deterministic authorization for AI-agent actions**
 
-A Databricks reference system combining replay-safe lakehouse state, point-in-time features, distributed collaborative and sequential models, managed vector retrieval, and evidence-based model promotion.
+A reference monitor that turns model proposals into policy-checked, bounded, and independently verified state transitions.
 
-`Databricks` `Spark` `PyTorch` `MLflow`
+`Go` `Python` `Security` `Distributed Systems`
 
-**Highlights**
-- 2.22M-line Databricks workload
-- Spark implicit ALS and causal SASRec
-- Managed ANN quality and load benchmark
-- Strong baseline retained when advanced models did not reliably win
+**Evidence:** 100,000-case Go/Python policy parity · 50/50 controlled fixture tasks · race, fuzz, mutation, and release gates
 
 </td>
 <td width="50%" valign="top">
 
-### 🌀 [Tortus](https://github.com/darshgarg7/Tortus)
+### 🧊 [Recommender Lakehouse](https://github.com/darshgarg7/Recommender-Lakehouse)
 
-**Multi-hop retrieval for questions that require connected evidence**
+**Cold-start recommendations with fail-closed ML governance**
 
-A local-first retrieval engine that combines semantic search with bounded graph traversal to surface the path linking evidence across multiple sources.
+A Databricks reference system spanning replay-safe lakehouse state, point-in-time features, distributed retrieval, sequential models, and evidence-based promotion.
 
-`RAG` `Graph Retrieval` `Python` `Evaluation`
+`Databricks` `Spark` `PyTorch` `MLflow`
 
-**Highlights**
-- Package-distributable engine and CLI
-- Vector, lexical, and graph baselines
-- Public-source scale sweep
-- Path-recall, latency, and traversal metrics
+**Evidence:** 2.22M-line Appliances workload · managed ANN benchmark · advanced candidates rejected when confidence gates did not clear
 
 </td>
 </tr>
@@ -67,109 +57,67 @@ A local-first retrieval engine that combines semantic search with bounded graph 
 <tr>
 <td width="50%" valign="top">
 
-### 🛒 [Agentic Procurement](https://github.com/darshgarg7/AgenticProcurement)
+### 🌀 [Tortus](https://github.com/darshgarg7/Tortus)
 
-**A buyer agent that decides when to buy, ask, wait, or search**
+**Explainable multi-hop retrieval over connected evidence**
 
-A Bayesian decision system for autonomous purchasing under uncertainty, combining expected utility, epistemic uncertainty, minimax regret, and market dynamics.
+A local-first retrieval engine combining semantic search with bounded graph traversal to return the path connecting evidence—not only a list of chunks.
 
-`Bayesian ML` `Decision Theory` `Simulation`
+`RAG` `Graph Retrieval` `Python` `Evaluation`
 
-**Highlights**
-- Exact finite-catalog ellipsoidal regret
-- Monte Carlo wait valuation
-- 58% lower realized regret in the reported experiment
-- Explicit abstention instead of forced purchase
+**Evidence:** package and CLI · vector, lexical, and graph baselines · public-source scale sweep with path-recall and latency metrics
 
 </td>
 <td width="50%" valign="top">
 
-### 🛡️ [Bouncer](https://github.com/darshgarg7/Bouncer)
+### 🛒 [Agentic Procurement](https://github.com/darshgarg7/AgenticProcurement)
 
-**Deterministic control and verification for AI-agent actions**
+**A buyer agent that knows when not to buy**
 
-A reference monitor that turns model-proposed actions into policy-checked, bounded, and independently verified state transitions.
+A Bayesian decision system that can purchase, ask, wait, or search based on utility, epistemic uncertainty, minimax regret, and market dynamics.
 
-`Go` `Python` `Security` `Distributed Systems`
+`Bayesian ML` `Decision Theory` `Simulation`
 
-**Highlights**
-- 100,000-case Go/Python policy parity
-- Bounded execution and state-delta verification
-- Tamper-evident lifecycle logs
-- Race detection, fuzzing, and release gates
+**Evidence:** 58% lower mean realized regret than the buy-now baseline in the saved experiment · explicit abstention in uncertain episodes
 
 </td>
 </tr>
 </table>
 
-<br/>
+## How I engineer applied AI
 
-## How I approach applied AI
+| Principle | What it means in practice |
+|---|---|
+| **Evidence over adjectives** | Claims point to executable checks, measured artifacts, or clearly labeled experiments. |
+| **Baselines before complexity** | A sophisticated model earns deployment; it does not inherit it. |
+| **Refusal is a valid output** | A system may abstain, reject, or preserve the incumbent when evidence is weak. |
+| **Boundaries before autonomy** | Model proposals cross deterministic policy and verification layers before real effects. |
+| **End-to-end ownership** | Data semantics, modeling, infrastructure, evaluation, and product value are one system. |
 
-<div align="center">
+## More work
 
-```text
-BUSINESS OR USER PROBLEM
-            │
-            ▼
-DATA · CONSTRAINTS · SUCCESS METRIC
-            │
-            ▼
-MODEL / ALGORITHM / DECISION SYSTEM
-            │
-            ▼
-INFRASTRUCTURE · EVALUATION · DEPLOYMENT
-            │
-            ▼
-MEASURABLE PRODUCT OR OPERATIONAL VALUE
-```
+- **[CausalOps](https://github.com/darshgarg7/CausalOps)** — evidence-gated causal investigations that separate agent-generated hypotheses from externally validated conclusions.
+- **[MCP Reputation Policy](https://github.com/darshgarg7/MCP-Reputation-Policy)** — trust-aware orchestration across real MCP servers using live reliability, latency, and risk signals.
+- **[Loom.ai](https://github.com/darshgarg7/Loom.ai)** — a voice-first interface designed to help caregivers turn moments of confusion into connection.
 
-</div>
-
-I care about:
-
-- starting with the problem, not the model
-- choosing the simplest approach that can create meaningful leverage
-- combining ML depth with strong software and data systems
-- evaluating against real baselines
-- understanding failure modes and operational constraints
-- turning prototypes into reproducible, usable systems
-- measuring value instead of relying on model complexity or demos alone
-
-<br/>
-
-## Additional systems
-
-### [CausalOps](https://github.com/darshgarg7/CausalOps)
-An evidence-gated causal investigation system that turns agent-generated hypotheses into statistically testable questions using external operational data.
-
-### [MCP Reputation Policy](https://github.com/darshgarg7/MCP-Reputation-Policy)
-A reputation-aware routing layer across real Model Context Protocol servers, designed to improve tool selection using live reliability, latency, and risk signals.
-
-<br/>
-
-## Live: authorization ledger
+## Live engineering signature
 
 <div align="center">
 
-<img src="https://raw.githubusercontent.com/darshgarg7/darshgarg7/output/authorization-ledger.svg" alt="Live commit authorization ledger" width="860"/>
+<img src="https://raw.githubusercontent.com/darshgarg7/darshgarg7/output/authorization-ledger.svg" alt="Recent public commits moving through proposed, policy-check, and verified stages" width="100%"/>
 
-<sub>Recent commits, gated through <code>PROPOSED → POLICY CHECK → VERIFIED</code> — the same lifecycle as <a href="https://github.com/darshgarg7/Bouncer">Bouncer</a>, applied to this profile's own commit history. Regenerated every 6 hours by a GitHub Action.</sub>
+<sub>Recent public commit activity visualized as <code>PROPOSED → POLICY CHECK → VERIFIED</code>, inspired by <a href="https://github.com/darshgarg7/Bouncer">Bouncer</a>. Regenerated every six hours; an empty feed renders an honest empty state rather than invented activity.</sub>
 
 </div>
-
-<br/>
 
 ## What I am looking for
 
-I am especially interested in teams working on:
+I am drawn to teams where ML quality and systems quality are the same conversation—especially in applied AI, retrieval and recommendation, agent infrastructure, and decision-making under uncertainty.
 
-`Applied AI` · `ML systems` · `agentic AI` · `retrieval` · `recommendation` · `decision systems` · `AI infrastructure`
+If that sounds like your problem space, [send me a note](mailto:darsh.garg@gmail.com).
 
 <div align="center">
 
-<br/>
-
-### Find the right problem. Build the right system. Measure the value.
+### Find the right problem. Build the right system. Prove the value.
 
 </div>
