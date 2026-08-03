@@ -8,7 +8,7 @@
 
 I look for problems worth solving before I look for models — then I architect and execute the system end to end, the way a seasoned AI/ML systems engineer would, not just prototype it. I start with the problem, validate that AI is the right tool, build the system around it — not just the model — and measure success against real baselines.
 
-Focus areas: Retrieval · Recommendation · Agent Infrastructure · Decision Systems (I like MARL systems)
+Focus areas: Retrieval · Recommendation · Agent Infrastructure · Decision Systems (I like Multi Agent & MARL systems)
 
 [Website](https://darshgarg.com/) · [Résumé](https://docs.google.com/document/d/1wPq1AzhBjIJ2RCblwtiiFtAmqV8msn6fN4dbv9Wz8no/edit?usp=sharing) · [LinkedIn](https://www.linkedin.com/in/darshgarg13579/) · darsh.garg@gmail.com
 
