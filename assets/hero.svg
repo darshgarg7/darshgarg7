@@ -18,7 +18,7 @@
       <stop offset="0" stop-color="#22d3ee"/>
       <stop offset="0.5" stop-color="#8b5cf6"/>
       <stop offset="0.82" stop-color="#ec4899"/>
-      <stop offset="1" stop-color="#a3e635"/>
+      <stop offset="1" stop-color="#5eead4"/>
     </linearGradient>
     <radialGradient id="core" cx="35%" cy="30%" r="80%">
       <stop offset="0" stop-color="#f0abfc"/>
@@ -26,9 +26,9 @@
       <stop offset="1" stop-color="#312e81"/>
     </radialGradient>
     <radialGradient id="vision" cx="35%" cy="30%" r="80%">
-      <stop offset="0" stop-color="#ecfccb"/>
-      <stop offset="0.5" stop-color="#a3e635"/>
-      <stop offset="1" stop-color="#3f6212"/>
+      <stop offset="0" stop-color="#ccfbf1"/>
+      <stop offset="0.5" stop-color="#5eead4"/>
+      <stop offset="1" stop-color="#0f766e"/>
     </radialGradient>
     <radialGradient id="ambient" cx="78%" cy="31%" r="52%">
       <stop offset="0" stop-color="#8b5cf6" stop-opacity="0.18"/>
@@ -67,14 +67,14 @@
     <rect width="1200" height="430" fill="url(#ambient)"/>
     <rect width="1200" height="430" fill="url(#grid)"/>
     <circle cx="916" cy="160" r="92" fill="#7c3aed" fill-opacity="0.07" filter="url(#wideGlow)"/>
-    <circle cx="1092" cy="160" r="54" fill="#a3e635" fill-opacity="0.07" filter="url(#wideGlow)"/>
+    <circle cx="1092" cy="160" r="54" fill="#5eead4" fill-opacity="0.07" filter="url(#wideGlow)"/>
 
     <!-- Identity and thesis -->
     <g class="sans" transform="translate(54 42)">
       <rect width="40" height="40" rx="11" fill="#0d1527" stroke="#67e8f9" stroke-opacity="0.58"/>
       <text x="20" y="26" text-anchor="middle" fill="#f8fafc" font-size="14" font-weight="760" letter-spacing="0.5">DG</text>
       <text x="56" y="15" fill="#f8fafc" font-size="16" font-weight="730" letter-spacing="2.4">DARSH GARG</text>
-      <text x="56" y="37" fill="#94a3b8" font-size="11" font-weight="650" letter-spacing="1.65">METACOGNITIVE AI · SYSTEMS FROM FIRST PRINCIPLES</text>
+      <text x="56" y="37" fill="#aab6c8" font-size="11.5" font-weight="650" letter-spacing="1.55">METACOGNITIVE AI · SYSTEMS FROM FIRST PRINCIPLES</text>
     </g>
 
     <g class="sans" transform="translate(54 132)">
@@ -184,42 +184,71 @@
       <circle cx="1093" cy="109" r="3.5" fill="#f472b6"/>
       <circle cx="1091" cy="211" r="3.5" fill="#c084fc"/>
       <g transform="translate(1142 158)" filter="url(#softGlow)">
-        <circle r="34" fill="#a3e635" fill-opacity="0.07" stroke="#a3e635" stroke-opacity="0.28"/>
+        <circle r="34" fill="#5eead4" fill-opacity="0.07" stroke="#5eead4" stroke-opacity="0.3"/>
         <rect x="-17" y="-17" width="34" height="34" rx="8" fill="url(#vision)" transform="rotate(45)"/>
-        <path d="M-9 1 L-2 8 L11 -7" fill="none" stroke="#07110b" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+        <path d="M-9 1 L-2 8 L11 -7" fill="none" stroke="#042f2e" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
         <g class="motion">
-          <circle r="28" fill="none" stroke="#a3e635" stroke-opacity="0.48">
+          <circle r="28" fill="none" stroke="#5eead4" stroke-opacity="0.5">
             <animate attributeName="r" values="27;39;27" dur="3.6s" repeatCount="indefinite"/>
             <animate attributeName="opacity" values="0.62;0;0.62" dur="3.6s" repeatCount="indefinite"/>
           </circle>
         </g>
       </g>
 
+      <!-- Downstream feedback loop: a build ships, measures, and teaches the system -->
+      <g>
+        <path d="M1142 194 C1144 226 1128 247 1092 263 L1048 287 L1112 305 L1170 274 L1142 240"
+              fill="none" stroke="#5eead4" stroke-width="1.1" stroke-opacity="0.18"/>
+        <path d="M1092 263 L1112 305 M1092 263 L1170 274 M1048 287 L1142 240"
+              fill="none" stroke="#94a3b8" stroke-width="1" stroke-opacity="0.14"/>
+        <path class="motion" d="M1142 194 C1144 226 1128 247 1092 263 L1048 287 L1112 305 L1170 274"
+              fill="none" stroke="#5eead4" stroke-width="1.4" stroke-dasharray="3 12" stroke-opacity="0.5">
+          <animate attributeName="stroke-dashoffset" from="0" to="-30" dur="3.6s" repeatCount="indefinite"/>
+        </path>
+        <g filter="url(#softGlow)">
+          <circle cx="1142" cy="240" r="3" fill="#99f6e4"/>
+          <circle cx="1092" cy="263" r="4" class="node-ring"/>
+          <circle cx="1092" cy="263" r="1.8" fill="#5eead4"/>
+          <rect x="1044.5" y="283.5" width="7" height="7" rx="2" fill="#8b5cf6"/>
+          <circle cx="1112" cy="305" r="3.5" fill="#c084fc"/>
+          <circle cx="1170" cy="274" r="3" fill="#5eead4"/>
+        </g>
+      </g>
+
       <g class="mono" font-size="9.5" letter-spacing="1.15">
-        <text x="594" y="315" fill="#67e8f9">RELATIONSHIPS</text>
-        <text x="874" y="315" fill="#c4b5fd">OBSERVE · EVALUATE · ADAPT</text>
-        <text x="1120" y="215" text-anchor="middle" fill="#bef264">BUILD</text>
+        <path d="M716 276 L700 298 L594 298" fill="none" stroke="#67e8f9" stroke-width="0.8" stroke-opacity="0.46"/>
+        <text x="594" y="314" fill="#67e8f9">RELATIONSHIPS</text>
+
+        <path d="M922 211 L922 286 L856 286" fill="none" stroke="#c4b5fd" stroke-width="0.8" stroke-opacity="0.44"/>
+        <text x="856" y="302" fill="#c4b5fd">OBSERVE · EVALUATE · ADAPT</text>
+
+        <text x="1120" y="215" text-anchor="middle" fill="#99f6e4">BUILD</text>
+        <path d="M1092 263 L1018 263" fill="none" stroke="#5eead4" stroke-width="0.8" stroke-opacity="0.38"/>
+        <text x="1018" y="279" fill="#99f6e4">SHIP · MEASURE · LEARN</text>
       </g>
     </g>
 
     <!-- Four-part mental model -->
     <g transform="translate(54 354)" class="sans">
       <line x1="0" y1="0" x2="1092" y2="0" stroke="#475569" stroke-opacity="0.42"/>
+      <line x1="273" y1="14" x2="273" y2="50" stroke="#475569" stroke-opacity="0.18"/>
+      <line x1="546" y1="14" x2="546" y2="50" stroke="#475569" stroke-opacity="0.18"/>
+      <line x1="819" y1="14" x2="819" y2="50" stroke="#475569" stroke-opacity="0.18"/>
 
-      <g transform="translate(0 20)">
+      <g transform="translate(136.5 20)" text-anchor="middle">
         <text fill="#67e8f9" font-size="11.5" font-weight="720" letter-spacing="1.4">01 · CONNECTIONS</text>
         <text y="21" fill="#94a3b8" font-size="11.5">intelligence from relationships</text>
       </g>
-      <g transform="translate(279 20)">
+      <g transform="translate(409.5 20)" text-anchor="middle">
         <text fill="#a78bfa" font-size="11.5" font-weight="720" letter-spacing="1.4">02 · FLOW</text>
         <text y="21" fill="#94a3b8" font-size="11.5">data becomes insight in motion</text>
       </g>
-      <g transform="translate(558 20)">
+      <g transform="translate(682.5 20)" text-anchor="middle">
         <text fill="#f0abfc" font-size="11.5" font-weight="720" letter-spacing="1.4">03 · EMERGENCE</text>
         <text y="21" fill="#94a3b8" font-size="11.5">patterns surface through complexity</text>
       </g>
-      <g transform="translate(837 20)">
-        <text fill="#bef264" font-size="11.5" font-weight="720" letter-spacing="1.4">04 · VISION</text>
+      <g transform="translate(955.5 20)" text-anchor="middle">
+        <text fill="#5eead4" font-size="11.5" font-weight="720" letter-spacing="1.4">04 · VISION</text>
         <text y="21" fill="#cbd5e1" font-size="11.5">abstraction becomes implementation</text>
       </g>
     </g>
