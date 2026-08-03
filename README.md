@@ -48,7 +48,7 @@ Teams where I own the full stack — the model architecture and the system that 
 ## Contributions
 
 <div align="center">
-  <img src="https://raw.githubusercontent.com/darshgarg7/darshgarg7/output/authorization-ledger.svg" alt="Recent commit activity, gated through proposed, policy-check, and verified stages" width="860"/>
+  <img src="https://raw.githubusercontent.com/ekarati/ekarati/output/github-contribution-grid-snake-dark.svg" alt="snake animation" />
 </div>
 
 ---
