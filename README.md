@@ -54,5 +54,5 @@ Teams where I own the full stack — the model architecture and the system that 
 ---
 
 <div align="center">
-  <sub>Open to collaborating on agentic AI, AI systems, and applied GenAI research.<br/>If you're building something interesting, reach out via <a href="https://www.linkedin.com/in/darshgarg13579/">LinkedIn</a> or <a darsh.garg@gmail.com/a></sub>
+  <sub>Open to collaborating on agentic AI, AI systems, and applied GenAI research.<br/>If you're building something interesting, reach out via <a href="https://www.linkedin.com/in/darshgarg13579/">LinkedIn</a> or email at darsh.garg@gmail.com </sub>
 </div>
