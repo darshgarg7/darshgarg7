@@ -48,7 +48,7 @@ Teams where I own the full stack — the model architecture and the system that 
 ## Contributions
 
 <div align="center">
-  <img src="https://raw.githubusercontent.com/darshgarg7/darshgarg7/output/github-contribution-grid-snake.svg" alt="snake animation" />
+  <img src="https://raw.githubusercontent.com/darshgarg7/darshgarg7/output/github-contribution-grid-snake.svg">
 </div>
 
 ---
