@@ -6,7 +6,7 @@ I look for problems worth solving before I look for models — then I architect 
 
 Focus areas: Retrieval · Recommendation · Agent Infrastructure · Decision Systems (I like MARL systems)
 
-[Website](https://darshgarg.com/) · [Résumé](https://darshgarg.com/cv) · [LinkedIn](https://www.linkedin.com/in/darshgarg13579/) · [Email](darsh.garg@gmail.com)
+[Website](https://darshgarg.com/) · [Résumé]([https://darshgarg.com/cv](https://docs.google.com/document/d/1wPq1AzhBjIJ2RCblwtiiFtAmqV8msn6fN4dbv9Wz8no/edit?usp=sharing)) · [LinkedIn](https://www.linkedin.com/in/darshgarg13579/) · [darsh.garg@gmail.com]
 
 ## Purpose · Value · Vision · Brand
 
@@ -43,7 +43,7 @@ Focus areas: Retrieval · Recommendation · Agent Infrastructure · Decision Sys
 
 ## What I'm looking for
 
-Building AI products, retrieval systems, agent infrastructure, recommender systems, and ML platforms where engineering quality matters as much as model quality.
+Teams where I own the full stack — the model architecture and the system that makes it trustworthy in production. I don't want to wire up someone else's model; I want to design it, then build the retrieval, evaluation, and infrastructure that prove it actually works before it ships.
 
 ## Contributions
 
@@ -54,5 +54,5 @@ Building AI products, retrieval systems, agent infrastructure, recommender syste
 ---
 
 <div align="center">
-  <sub>Open to collaborating on agentic AI, security-focused AI systems, and applied GenAI research.<br/>If you're building something interesting, reach out via <a href="https://www.linkedin.com/in/darshgarg13579/">LinkedIn</a> or <a href="https://darshgarg.com">darshgarg.com</a></sub>
+  <sub>Open to collaborating on agentic AI, AI systems, and applied GenAI research.<br/>If you're building something interesting, reach out via <a href="https://www.linkedin.com/in/darshgarg13579/">LinkedIn</a> or <a darsh.garg@gmail.com/a></sub>
 </div>
