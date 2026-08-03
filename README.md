@@ -6,7 +6,7 @@ I look for problems worth solving before I look for models — then I architect 
 
 Focus areas: Retrieval · Recommendation · Agent Infrastructure · Decision Systems (I like MARL systems)
 
-[Website](https://darshgarg.com/) · [Résumé](https://darshgarg.com/cv) · [LinkedIn](https://www.linkedin.com/in/darshgarg13579/) · [Email](mailto:darsh.garg@gmail.com)
+[Website](https://darshgarg.com/) · [Résumé](https://darshgarg.com/cv) · [LinkedIn](https://www.linkedin.com/in/darshgarg13579/) · [Email](darsh.garg@gmail.com)
 
 ## Purpose · Value · Vision · Brand
 
