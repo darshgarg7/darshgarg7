@@ -47,14 +47,8 @@ Teams where I own the full stack — the model architecture and the system that 
 
 ## Contributions
 
-<div align="center"> <picture> <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/darshgarg7/darshgarg7/output/github-contribution-grid-snake-dark.svg" /> <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/darshgarg7/darshgarg7/output/github-contribution-grid-snake.svg" /> <img alt="a snake eating my contribution graph" src="https://raw.githubusercontent.com/darshgarg7/darshgarg7/output/github-contribution-grid-snake.svg" width="100%"/> </picture>
-
-<sub><code>contributions, gated one commit at a time</code></sub>
-
-</div>
-
 <div align="center">
-  <img src="https://raw.githubusercontent.com/ekarati/ekarati/output/github-contribution-grid-snake-dark.svg" alt="snake animation" />
+  <img src="https://raw.githubusercontent.com/darshgarg7/darshgarg7/output/github-contribution-grid-snake.svg" alt="snake animation" />
 </div>
 
 ---
