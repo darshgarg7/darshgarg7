@@ -1,6 +1,6 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 430" role="img" aria-labelledby="title desc">
-  <title id="title">Darsh Garg — metacognitive AI systems</title>
-  <desc id="desc">A neural graph illustrates four ideas: connections create intelligence, flow turns data into insight, patterns emerge from complexity, and vision turns abstraction into implementation.</desc>
+  <title id="title">Darsh Garg — applied AI and ML systems with measurable impact</title>
+  <desc id="desc">A neural systems graph moves from a valuable problem through intelligence and end-to-end engineering to measured real-world impact.</desc>
 
   <defs>
     <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
@@ -74,16 +74,16 @@
       <rect width="40" height="40" rx="11" fill="#0d1527" stroke="#67e8f9" stroke-opacity="0.58"/>
       <text x="20" y="26" text-anchor="middle" fill="#f8fafc" font-size="14" font-weight="760" letter-spacing="0.5">DG</text>
       <text x="56" y="15" fill="#f8fafc" font-size="16" font-weight="730" letter-spacing="2.4">DARSH GARG</text>
-      <text x="56" y="37" fill="#aab6c8" font-size="11.5" font-weight="650" letter-spacing="1.55">METACOGNITIVE AI · SYSTEMS FROM FIRST PRINCIPLES</text>
+      <text x="56" y="37" fill="#aab6c8" font-size="11.5" font-weight="650" letter-spacing="1.45">APPLIED AI · ML SYSTEMS · MEASURABLE BUSINESS IMPACT</text>
     </g>
 
     <g class="sans" transform="translate(54 132)">
-      <text x="0" y="0" fill="#f8fafc" font-size="43" font-weight="760" letter-spacing="-1.2">SYSTEMS THAT</text>
-      <text x="0" y="49" fill="#f8fafc" font-size="43" font-weight="760" letter-spacing="-1.2">THINK ABOUT</text>
-      <text x="0" y="98" fill="url(#headline)" font-size="43" font-weight="780" letter-spacing="-1.2">HOW THEY THINK.</text>
+      <text x="0" y="0" fill="#f8fafc" font-size="42" font-weight="760" letter-spacing="-1.2">HARD PROBLEMS.</text>
+      <text x="0" y="49" fill="#f8fafc" font-size="40" font-weight="760" letter-spacing="-1.2">END-TO-END SYSTEMS.</text>
+      <text x="0" y="98" fill="url(#headline)" font-size="40" font-weight="780" letter-spacing="-1.2">MEASURABLE IMPACT.</text>
       <line x1="0" y1="125" x2="410" y2="125" stroke="url(#headline)" stroke-width="2" stroke-opacity="0.52"/>
-      <text x="0" y="158" fill="#94a3b8" font-size="15.5" letter-spacing="0.1">From abstraction to implementation, I build the</text>
-      <text x="0" y="181" fill="#cbd5e1" font-size="15.5" font-weight="580" letter-spacing="0.1">intelligence between them.</text>
+      <text x="0" y="158" fill="#94a3b8" font-size="15.5" letter-spacing="0.1">I find the problem worth solving—then build the</text>
+      <text x="0" y="181" fill="#cbd5e1" font-size="15.5" font-weight="580" letter-spacing="0.1">model, system, and evidence to prove the value.</text>
     </g>
 
     <!-- Neural substrate: intelligence emerges from relationships -->
@@ -145,7 +145,7 @@
         </circle>
       </g>
 
-      <!-- Emergent metacognitive core -->
+      <!-- Decision core: patterns resolve into a usable signal -->
       <g transform="translate(922 158)">
         <ellipse rx="91" ry="52" fill="none" stroke="#c4b5fd" stroke-width="1" stroke-opacity="0.28" transform="rotate(-8)"/>
         <ellipse rx="67" ry="35" fill="none" stroke="#f0abfc" stroke-width="1.2" stroke-opacity="0.38" transform="rotate(13)"/>
@@ -217,10 +217,10 @@
 
       <g class="mono" font-size="9.5" letter-spacing="1.15">
         <path d="M716 276 L700 298 L594 298" fill="none" stroke="#67e8f9" stroke-width="0.8" stroke-opacity="0.46"/>
-        <text x="594" y="314" fill="#67e8f9">RELATIONSHIPS</text>
+        <text x="594" y="314" fill="#67e8f9">DATA · CONTEXT · SIGNAL</text>
 
         <path d="M922 211 L922 286 L856 286" fill="none" stroke="#c4b5fd" stroke-width="0.8" stroke-opacity="0.44"/>
-        <text x="856" y="302" fill="#c4b5fd">OBSERVE · EVALUATE · ADAPT</text>
+        <text x="856" y="302" fill="#c4b5fd">MODEL · EVALUATE · DECIDE</text>
 
         <text x="1120" y="215" text-anchor="middle" fill="#99f6e4">BUILD</text>
         <path d="M1092 263 L1018 263" fill="none" stroke="#5eead4" stroke-width="0.8" stroke-opacity="0.38"/>
@@ -228,7 +228,7 @@
       </g>
     </g>
 
-    <!-- Four-part mental model -->
+    <!-- Applied-AI delivery model -->
     <g transform="translate(54 354)" class="sans">
       <line x1="0" y1="0" x2="1092" y2="0" stroke="#475569" stroke-opacity="0.42"/>
       <line x1="273" y1="14" x2="273" y2="50" stroke="#475569" stroke-opacity="0.18"/>
@@ -236,20 +236,20 @@
       <line x1="819" y1="14" x2="819" y2="50" stroke="#475569" stroke-opacity="0.18"/>
 
       <g transform="translate(136.5 20)" text-anchor="middle">
-        <text fill="#67e8f9" font-size="11.5" font-weight="720" letter-spacing="1.4">01 · CONNECTIONS</text>
-        <text y="21" fill="#94a3b8" font-size="11.5">intelligence from relationships</text>
+        <text fill="#67e8f9" font-size="11.5" font-weight="720" letter-spacing="1.4">01 · PROBLEM</text>
+        <text y="21" fill="#94a3b8" font-size="11.5">find what is worth solving</text>
       </g>
       <g transform="translate(409.5 20)" text-anchor="middle">
-        <text fill="#a78bfa" font-size="11.5" font-weight="720" letter-spacing="1.4">02 · FLOW</text>
-        <text y="21" fill="#94a3b8" font-size="11.5">data becomes insight in motion</text>
+        <text fill="#a78bfa" font-size="11.5" font-weight="720" letter-spacing="1.4">02 · INTELLIGENCE</text>
+        <text y="21" fill="#94a3b8" font-size="11.5">retrieval · recommendation · MARL</text>
       </g>
       <g transform="translate(682.5 20)" text-anchor="middle">
-        <text fill="#f0abfc" font-size="11.5" font-weight="720" letter-spacing="1.4">03 · EMERGENCE</text>
-        <text y="21" fill="#94a3b8" font-size="11.5">patterns surface through complexity</text>
+        <text fill="#f0abfc" font-size="11.5" font-weight="720" letter-spacing="1.4">03 · SYSTEM</text>
+        <text y="21" fill="#94a3b8" font-size="11.5">engineer reliability end to end</text>
       </g>
       <g transform="translate(955.5 20)" text-anchor="middle">
-        <text fill="#5eead4" font-size="11.5" font-weight="720" letter-spacing="1.4">04 · VISION</text>
-        <text y="21" fill="#cbd5e1" font-size="11.5">abstraction becomes implementation</text>
+        <text fill="#5eead4" font-size="11.5" font-weight="720" letter-spacing="1.4">04 · IMPACT</text>
+        <text y="21" fill="#cbd5e1" font-size="11.5">prove value against real baselines</text>
       </g>
     </g>
   </g>

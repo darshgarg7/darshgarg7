@@ -1,5 +1,5 @@
 <div align="center">
-  <img src="./assets/hero.svg" alt="Darsh Garg — metacognitive AI systems built from connections, flow, emergence, and vision" width="100%" />
+  <img src="./assets/hero.svg" alt="Darsh Garg — applied AI and ML systems from hard problems to measurable impact" width="100%" />
 </div>
 
 # Darsh Garg
