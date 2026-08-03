@@ -1,3 +1,7 @@
+<div align="center">
+  <img src="./assets/hero.svg" alt="Darsh Garg — metacognitive AI systems built from connections, flow, emergence, and vision" width="100%" />
+</div>
+
 # Darsh Garg
 
 **I build AI/ML systems that turn hard problems into measurable business impact.**
