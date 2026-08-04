@@ -18,7 +18,7 @@ I work end to end—from framing the decision and selecting the right approach t
 - **[Tortus](https://github.com/darshgarg7/Tortus)** — graph retrieval for multi-hop reasoning. 0.83 path recall at 165ms p95, 40% lower graph fanout than the nearest baseline.
 - **[Recommender Lakehouse](https://github.com/darshgarg7/Recommender-Lakehouse)** — cold-start recommender on a 2.22M-line Databricks system. Correctly rejected advanced candidates when confidence gates didn't clear.
 - **[Agentic Procurement](https://github.com/darshgarg7/AgenticProcurement)** — Bayesian purchasing under uncertainty. 58% lower realized regret than a buy-now baseline, with explicit abstention.
-- More: [CausalOps](https://github.com/darshgarg7/CausalOps) · [MCP Reputation Policy](https://github.com/darshgarg7/MCP-Reputation-Policy) · [PLUS MANY MORE] (https://github.com/darshgarg7?tab=repositories)
+- More: [CausalOps](https://github.com/darshgarg7/CausalOps) · [MCP Reputation Policy](https://github.com/darshgarg7/MCP-Reputation-Policy) · [PLUS MANY MORE](https://github.com/darshgarg7?tab=repositories)
 
 ## Industry Impact
 
