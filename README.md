@@ -8,6 +8,8 @@
 
 I work end to end—from framing the decision and selecting the right approach to building the data, evaluation, infrastructure, and reliability around it. The goal is not a clever demo; it is an outcome that holds up against real baselines.
 
+*I like to architect and implement end-to-end complex AI systems*
+
 **Focus:** Retrieval · Recommendation · Agent Infrastructure · Decision Systems · Multi-Agent Systems & MARL
 
 [Website](https://darshgarg.com/) · [Résumé](https://docs.google.com/document/d/1wPq1AzhBjIJ2RCblwtiiFtAmqV8msn6fN4dbv9Wz8no/edit?usp=sharing) · [LinkedIn](https://www.linkedin.com/in/darshgarg13579/) · [darsh.garg@gmail.com](mailto:darsh.garg@gmail.com)
