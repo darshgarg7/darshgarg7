@@ -1,68 +1,48 @@
-<div align="center">
-  <img src="./assets/hero.svg" alt="Darsh Garg — applied AI and ML systems from hard problems to measurable impact" width="100%" />
-</div>
-
 # Darsh Garg
 
-**I build AI/ML systems that turn hard problems into measurable business impact.**
+**AI/ML engineer building agents, decision systems, and production ML systems.**
 
-I work end to end—from framing the decision and selecting the right approach to building the data, evaluation, infrastructure, and reliability around it. The goal is not a clever demo; it is an outcome that holds up against real baselines.
+I work end to end, from framing the problem and designing the evaluation to building the model, infrastructure, and production system around it. I care about strong baselines, reliable behavior, and measurable results.
 
-*I like to architect and implement end-to-end complex AI systems*
+**Focus:** AI Agents · Evaluation · Decision Systems · Multi-Agent Learning · ML Systems
 
-**Focus:** Retrieval · Recommendation · Agent Infrastructure · Decision Systems · Multi-Agent Systems & MARL
-
-[Website](https://darshgarg.com/) · [Résumé](https://docs.google.com/document/d/1wPq1AzhBjIJ2RCblwtiiFtAmqV8msn6fN4dbv9Wz8no/edit?usp=sharing) · [LinkedIn](https://www.linkedin.com/in/darshgarg13579/) · [darsh.garg@gmail.com](mailto:darsh.garg@gmail.com)
-
-## Selected Work
-
-- **[Bouncer](https://github.com/darshgarg7/Bouncer)** — deterministic authorization for AI agents. 100k-case Go/Python policy parity, fuzz/race-tested, tamper-evident execution logs.
-- **[Tortus](https://github.com/darshgarg7/Tortus)** — graph retrieval for multi-hop reasoning. 0.83 path recall at 165ms p95, 40% lower graph fanout than the nearest baseline.
-- **[Recommender Lakehouse](https://github.com/darshgarg7/Recommender-Lakehouse)** — cold-start recommender on a 2.22M-line Databricks system. Correctly rejected advanced candidates when confidence gates didn't clear.
-- **[Agentic Procurement](https://github.com/darshgarg7/AgenticProcurement)** — Bayesian purchasing under uncertainty. 58% lower realized regret than a buy-now baseline, with explicit abstention.
-- More: [CausalOps](https://github.com/darshgarg7/CausalOps) · [MCP Reputation Policy](https://github.com/darshgarg7/MCP-Reputation-Policy) · [PLUS MANY MORE](https://github.com/darshgarg7?tab=repositories)
-
-## Industry Impact
-
-- Reduced simulated HVAC energy use 15% (~$2M/year projected) while holding 95% setpoint accuracy — [Honeywell](https://darshgarg.com/cv#impact-heading)
-- Improved grounded-answer accuracy from 76% to 92% and made internal technical-question response 65% faster — [college.xyz](https://darshgarg.com/cv#impact-heading)
-- Reduced anomaly-detection false positives 30% and improved threat-identification accuracy 20% — [177th CPT, U.S. Army Minnesota National Guard](https://darshgarg.com/cv#experience-heading)
-- Achieved stable coordination on the SMAC `2s3z` map while attention-gated communication reduced message volume — [Feudal MARL case study](https://darshgarg.com/projects/feudal-marl)
-
-## Vision
-
-Build AI systems that solve increasingly complex real-world problems—from enterprise decision-making to autonomous agents—while treating evaluation, reliability, and measurable impact as first-class engineering concerns.
-
-## Leadership & Recognition
-
-**Leadership**
-
-- Founder & President, AI Innovators Society (80+ members, $5,000 raised)
-- Director of Technology, 0→1 Startup Club (mentored 15 student startups)
-
-**Recognition**
-
-- 1st — Northland Hackathon
-- 1st — MinneHack
-- 1st — UMN Biz Pitch
-- 2nd — O1 AI Summit, Holmes Center, MIT NandaTown
-
-## What I'm looking for
-
-I'm looking for teams where I can own the AI/ML system end to end—from model architecture and retrieval through evaluation, infrastructure, and production reliability. I'm particularly drawn to problems where the modeling decisions matter and success can be measured against real baselines.
-
-## Contributions
-
-<div align="center">
-  <img
-    src="https://raw.githubusercontent.com/darshgarg7/darshgarg7/output/github-contribution-grid-snake-dark.svg"
-    alt="GitHub contribution grid snake animation"
-    width="860"
-  />
-</div>
+[Website](https://darshgarg.com/) · [Résumé](https://docs.google.com/document/d/1wPq1AzhBjIJ2RCblwtiiFtAmqV8msn6fN4dbv9Wz8no/edit?usp=sharing) · [LinkedIn](https://www.linkedin.com/in/darshgarg13579/) · [Email](mailto:darsh.garg@gmail.com)
 
 ---
 
-<div align="center">
-  <sub>Open to collaborating on agentic AI, AI systems, and applied GenAI research.<br/>If you're building something interesting, reach out via <a href="https://www.linkedin.com/in/darshgarg13579/">LinkedIn</a> or <a href="mailto:darsh.garg@gmail.com">email</a>.</sub>
-</div>
+## Selected Work
+
+* [**Bouncer**](https://github.com/darshgarg7/Bouncer) — deterministic authorization for AI agents. 100k-case Go/Python policy parity, fuzz- and race-tested execution, and tamper-evident audit logs.
+* [**Tortus**](https://github.com/darshgarg7/Tortus) — graph retrieval for multi-hop reasoning. 0.83 path recall at 165 ms p95 with 40% lower graph fanout than the nearest baseline.
+* [**Agentic Procurement**](https://github.com/darshgarg7/AgenticProcurement) — Bayesian decision-making under uncertainty. Reduced realized regret 58% relative to a buy-now baseline, with explicit abstention under uncertainty.
+* [**Recommender Lakehouse**](https://github.com/darshgarg7/Recommender-Lakehouse) — cold-start recommendation on a 2.22M-row Databricks system. Evaluated increasingly complex models against strong baselines and rejected added complexity when it did not improve results.
+
+**More:** [CausalOps](https://github.com/darshgarg7/CausalOps) · [MCP Reputation Policy](https://github.com/darshgarg7/MCP-Reputation-Policy) · [All Projects](https://github.com/darshgarg7?tab=repositories)
+
+---
+
+## Selected Engineering Impact
+
+* Reduced simulated HVAC energy consumption **15%** while maintaining **95% setpoint accuracy** with multi-agent reinforcement learning.
+* Improved grounded-answer accuracy from **76% → 92%** while reducing technical-question response time **65%**.
+* Reduced anomaly-detection false positives **30%** while improving threat-identification accuracy **20%**.
+* Built multi-agent coordination systems where communication gating reduced unnecessary messaging while preserving task performance.
+
+[More experience →](https://darshgarg.com/cv)
+
+---
+
+## Current Direction
+
+I'm particularly interested in how increasingly autonomous agents decide when to **act, ask, escalate, recover, coordinate, and adapt**, and how those behaviors can be evaluated and trained.
+
+> **What behavioral properties cause humans to prefer one capable agent over another, and how can we train agents to reliably exhibit them?**
+
+---
+
+## Leadership
+
+**Founder & President**, AI Innovators Society · 80+ members · $5,000+ raised
+**Director of Technology**, 0→1 Startup Club · mentored 15 student startups
+
+**Selected recognition:** 1st Northland Hackathon · 1st MinneHack · 1st UMN Biz Pitch · 2nd O1 AI Summit
